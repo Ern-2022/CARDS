@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}        
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 50px;
+    color: #202020;
+    background-color: rgb(230, 230, 230);
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card>h1 {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.card>img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
